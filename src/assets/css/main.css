@@ -287,7 +287,7 @@ table {
   position: relative;
   background:
     linear-gradient(rgba(20, 28, 82, 0.9), rgba(20, 28, 82, 0.9)),
-    url('/assets/images/hero-bg.png') center/cover no-repeat;
+    url('/assets/images/hero-bg.webp') center/cover no-repeat;
   color: var(--color-white);
   padding: 16rem 0 12rem;
   min-height: 100vh;
@@ -1145,4 +1145,5 @@ table {
   .footer-brand {
     max-width: 100%;
   }
+
 }
