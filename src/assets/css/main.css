@@ -755,6 +755,15 @@ table {
   transition: all 0.3s ease;
 }
 
+.features .swiper-slide.feature-item {
+  transition: transform 0.3s ease;
+}
+
+.features .swiper-slide.feature-item.swiper-slide-active {
+  transform: scale(1);
+  /* active slide normal */
+}
+
 @media (max-width: 768px) {
 
   .features.style-one,
@@ -765,6 +774,11 @@ table {
 
   .features .features-btn {
     margin: 0 auto;
+  }
+
+  .features-one-slider,
+  .features-two-slider {
+    overflow: hidden;
   }
 
   .features .features-btn-group {
@@ -785,19 +799,6 @@ table {
   .features-carousel {
     padding: 0 5px;
     overflow: visible;
-  }
-
-  .features-one-slider, .features-two-slider {
-    overflow: visible;
-  }
-
-  .features .swiper-slide.feature-item {
-    transition: transform 0.3s ease;
-  }
-
-  .features .swiper-slide.feature-item.swiper-slide-active {
-    transform: scale(1);
-    /* active slide normal */
   }
 
   .features-navigation {
